@@ -1,0 +1,40 @@
+Project Title : Wedding Planner
+
+Roles/Modules : 
+                ==> Admin
+                    -> Login 
+                    -> Manage Users
+                    -> Manage Events (Add, Edit, Delete etc...)
+                    -> 
+                ==> User
+                    -> Login/Register
+                    -> Manage Events (Add, Edit, Delete etc...)
+                    -> Manage Guest
+                    -> 
+
+--------------------------------------------------------------------------------------
+
+Database Planning :- 
+
+No. Of Tables in the database : 
+        1. User
+            fields : Id--->int--->PK--->AI
+                     name--->varchar--->
+                     email--->varchar--->UK
+                     mobile--->varchar--->UK
+        2. Events   
+            fields : E-Id--->int--->PK--->AI
+                     title--->varchar--->
+                     location--->varchar--->
+                     startDate--->varchar--->
+                     endDate--->varchar--->
+                     e-price--->int--->
+        3. Guest   
+            fields : G-Id--->int--->Pk--->AI
+                     g-name--->varchar--->
+                     mobile--->varchar--->UK
+
+        4. Booked Events
+            fields : Booking-Id--->int--->PK--->AI
+                     Title-->varchar-->
+                     Booking-Date--->varchar--->

@@ -1,0 +1,22 @@
+:root{
+  --primaryColor: rgb(76, 67, 100);
+  --secondaryColor: rgb(187, 172, 230);
+}
+
+
+/* footer section*/
+.footer_section {
+    position: relative;
+    background-color: var(--primaryColor) !important;
+    text-align: center;
+  }
+  
+  .footer_section p {
+    color: var(--secondaryColor) !important;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section p a {
+    color: inherit;
+  }

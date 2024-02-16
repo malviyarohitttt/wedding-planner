@@ -1,0 +1,39 @@
+:root{
+    --primaryColor: rgb(76, 67, 100);
+    --secondaryColor: rgb(187, 172, 230);
+}
+*{
+    padding: 0  !important;
+    margin: 0;
+}
+
+.nav-container{
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    height: 50px;
+    /* box-shadow: 0px 15px 50px #5dc8ff; */
+    padding: 0 70px !important;
+    
+}
+
+.navItems{
+    list-style: none;
+    gap: 35px !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:0;
+    /* position: relative; */
+}
+
+.nav-div{
+    width: 100%;
+    /* z-index: 999 !important; */
+    justify-content: center;
+    align-items: center !important;
+}
+
+a{
+    color: rgb(15, 151, 235);
+    font-size: 18px;
+    transition: 0.1 ease-in-out;
+}
